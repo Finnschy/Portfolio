@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans:wght@400;600&display=swap');
+
+/* Super Portfolio = Work Sans 
+   Digital DEsigner = Didact Gothic 
+   Buttons = Fjalla One
+   Headlines = Didact Gothic
+   Rest = Work Sans 
+   
+    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+   
+   */
+
+html {
+   font-size: 10px;
+}
+
+
+header {
+/*    border: 1px solid black;
+ */   width: 30vw;
+   margin: 0 auto;
+   text-align: center;
+}
+
+header h1 {
+
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 400;
+   margin-bottom: -3rem;
+}
+
+header h2 {
+   font-family: 'Didact Gothic', sans-serif;
+   font-weight: bold;
+   font-size: 10rem;
+}
+
+main div {
+   height: 100vh;
+   width: 40%;
+   margin: 0 auto;
+   background-image: url(../img/portfolio1.jpeg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+main h3 {
+   font-family: 'Didact Gothic', sans-serif;
+   font-size: 15rem;
+   font-weight: 200;
+   text-align: center;
+}

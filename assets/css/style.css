@@ -142,14 +142,22 @@ section a{
    
 }
 /* orbis hover */
-section:nth-of-type(1) a:hover {
+section:nth-of-type(1) a:hover  {
    background-color: #fff;
    color: #333;
 }
+section:nth-of-type(1) a:hover + h5 {
+   color: #fff;
+}
+
 /* rollr hover */
 section:nth-of-type(2) a:hover {
    background-color: #333;
    color: #fff;
+}
+
+section:nth-of-type(2) a:hover + h5 {
+   color: #333;
 }
 
 /* galitos hover */
@@ -157,22 +165,26 @@ section:nth-of-type(3) a:hover {
    background-color: #fff;
    color: #333;
 }
-/* tretto */
+
+section:nth-of-type(3) a:hover + h5 {
+   color: #fff;
+}
+
+/* tretto hover */
 section:nth-of-type(4) a:hover {
    background-color: #333;
    color: #fff;
 }
 
-section div:first-of-type:hover {
-   color: red;
+section:nth-of-type(4) a:hover + h5 {
+   color: #333;
 }
 
 section h5 {
-   border: 1px solid green;
-   color: #333;
+   
+   color: rgba(51, 51, 51, 0.5);
    font-size: 15rem;
    font-family: 'Fjalla One', sans-serif;
-   
    margin-top: 0rem;
    margin-left: 120rem;
 }
@@ -248,3 +260,15 @@ footer h1 a {
 footer h1 a:hover {
    text-decoration: underline;
 }
+
+footer p {
+   font-size: 2rem;
+   color: #333;
+   animation-name: ;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes smoke {
+   from {  transform: translateX(2rem)    }
+   to   {  transform: translateX(4rem) }

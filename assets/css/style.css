@@ -261,7 +261,7 @@ footer h1 a:hover {
    text-decoration: underline;
 }
 
-footer p {
+/* footer p {
    font-size: 2rem;
    color: #333;
    animation-name: ;
@@ -271,4 +271,35 @@ footer p {
 
 @keyframes smoke {
    from {  transform: translateX(2rem)    }
-   to   {  transform: translateX(4rem) }
+   to   {  transform: translateX(4rem) } */
+
+   footer p {
+      animation: heartbeat 1s infinite;
+   }
+
+   @keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .8 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .8 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .8 );
+  }
+  100%
+  {
+    transform: scale( .8 );
+  }
